@@ -1,0 +1,26 @@
+{
+  "name": "paradox",
+  "version": "1.0.0",
+  "description": "Website for Paradox",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cpilton/Paradox-Website.git"
+  },
+  "author": "Callum Pilton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cpilton/Paradox-Website/issues"
+  },
+  "homepage": "https://github.com/cpilton/Paradox-Website#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "http": "0.0.1-security"
+  }
+}

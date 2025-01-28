@@ -1,0 +1,217 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #FFF;
+}
+a {
+    text-decoration: none;
+    color: #777;
+}
+#top {
+    width: 100%;
+    height: 80px;
+    background-color: #F5F5F5;
+    box-shadow: 0px 3px 5px #EEE;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.logo {
+    background-image: url("../img/logo.svg");
+    background-size: 65%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#top-logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: #FFF;
+    box-shadow: 0px 1px 2px #EEE;
+    top:10px;
+    left: 20px;
+    position: absolute;
+    cursor: pointer;
+}
+#main-logo {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    background-color: #FFF;
+    box-shadow: 0px 1px 2px #EEE;
+    top:25px;
+    left: 25px;
+    position: absolute;
+}
+.container {
+    width:1200px;
+    margin: auto;
+    position: relative;
+}
+#segment1 {
+    background-color: #f9f9f9;
+    height: 400px;
+    width: 100%;
+    margin-top: 80px;
+}
+#links {
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    right: 60px;
+    cursor: pointer;
+}
+.link:hover {
+    color: #444;
+}
+.link {
+    transition: .2s;
+    display: inline-block;
+    margin-left: 50px;
+}
+.title {
+    position: absolute;
+    font-size: 38px;
+    color: #555;
+}
+.subtitle {
+    position: absolute;
+    font-size: 26px;
+    color: #666;
+}
+.normal {
+    position: absolute;
+    font-size: 16px;
+    color: #777;
+}
+#segment1 .title{
+    left:325px;
+    top:50px;
+    color: #1E88E5;
+    font-weight: bold;
+}
+#segment1 .subtitle{
+    left:325px;
+    top:100px;
+}
+#segment1 .normal{
+    left:25px;
+    top:310px;
+}
+#segment2 {
+    background-color: #1E88E5;
+    padding: 0;
+    text-align: center;
+}
+.segment {
+    width: 100%;
+    padding: 0;
+    margin:0;
+}
+.image {
+    background-color: #eee;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    box-shadow: 0px 1px 4px #777;
+    border-radius: 10px;
+}
+#extension-img {
+    width: 250px;
+    height: 437px;
+    background-image: url("../img/extension.png");
+}
+#popup-img {
+    width: 561.86px;
+    height: 437px;
+    background-image: url("../img/popup.png");
+}
+.img-container {
+    display: inline-block;
+    vertical-align: top;
+    margin: 40px;
+    text-align: center;
+}
+#extension-container {
+    width: 350px;
+}
+#popup-container {
+    width: 661.86px;
+}
+.img-container .heading {
+    color: #FFF;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px auto;
+}
+#segment2 .heading {
+    color: #FFF;
+    font-size: 20px;
+    padding-top: 25px;
+}
+.img-container .standard {
+    color: #EEE;
+    font-size: 16px;
+}
+#get-paradox {
+    font-size: 22px;
+    color: #1E88E5;
+    border: 1px solid #1E88E5;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: fit-content;
+    position: absolute;
+    top:150px;
+    left:325px;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    transition: .3s;
+}
+#get-paradox:hover {
+    background-color: #eee;
+}
+#segment3 {
+    padding: 0;
+    background-color: #f9f9f9;
+    width: 100%;
+    margin-top: 80px;
+}
+#segment3 .heading {
+    color: #333;
+    font-size: 28px;
+    padding: 20px 0 10px;
+}
+#segment3 .subheading {
+    color: #555;
+    font-size: 22px;
+    padding-top:10px;
+}
+#segment3 .standard {
+    color: #777;
+    font-size: 16px;
+}
+.heading-middle {
+    font-size: 26px;
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+}
+.howto-image {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+.howto-image#extension-basics {
+    background-image: url("../img/howto/extension-basics.png");
+    width: 829px;
+    height: 546px;
+}
+.howto-image#popup-basics {
+    background-image: url("../img/howto/popup-basics.png");
+    width: 928px;
+    height: 549px;
+    padding-bottom: 80px;
+}
